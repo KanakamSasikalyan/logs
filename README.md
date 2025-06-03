@@ -1,4 +1,7 @@
-C:\Users\DELL\Downloads\GitHub-Workspace-Kalyan\fashion-studio-ai\src\main\java\io\metaverse\fashion\studio\controller\OutfitSuggestionController.java:32:43
-java: cannot find symbol
-  symbol:   method callGetOutfitSuggestionByPrompt(java.lang.String)
-  location: variable outfitSuggestionService of type io.metaverse.fashion.studio.service.OutfitSuggestionService
+2025-06-03T19:13:02.883+05:30 DEBUG 13284 --- [studio] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/outfit/suggest?prompt=going%20on%20a%20date%20with%20a%20girl", parameters={masked}
+2025-06-03T19:13:02.900+05:30 DEBUG 13284 --- [studio] [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to io.metaverse.fashion.studio.controller.OutfitSuggestionController#suggestOutfit(String, String, String)
+2025-06-03T19:13:02.961+05:30 DEBUG 13284 --- [studio] [nio-8080-exec-1] o.s.web.method.HandlerMethod             : Could not resolve parameter [0] in public java.lang.String io.metaverse.fashion.studio.controller.OutfitSuggestionController.suggestOutfit(java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException: Required request parameter 'occasion' for method parameter type String is not present
+2025-06-03T19:13:02.966+05:30  WARN 13284 --- [studio] [nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'occasion' for method parameter type String is not present]
+2025-06-03T19:13:02.968+05:30 DEBUG 13284 --- [studio] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2025-06-03T19:13:20.938+05:30 DEBUG 13284 --- [studio] [ool housekeeper] com.zaxxer.hikari.pool.HikariPool        : StudioHikariPool - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2025-06-03T19:13:20.939+05:30 DEBUG 13284 --- [studio] [ool housekeeper] com.zaxxer.hikari.pool.HikariPool        : StudioHikariPool - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
