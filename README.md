@@ -1,7 +1,4 @@
-2025-06-03T17:24:46.352+05:30 DEBUG 9060 --- [studio] [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/outfit/suggest?prompt=going%20to%20a%20date", parameters={masked}
-2025-06-03T17:24:46.352+05:30 DEBUG 9060 --- [studio] [nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to io.metaverse.fashion.studio.controller.OutfitSuggestionController#suggestOutfit(String, String, String)
-2025-06-03T17:24:46.363+05:30 DEBUG 9060 --- [studio] [nio-8080-exec-3] o.s.web.method.HandlerMethod             : Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<java.lang.String> io.metaverse.fashion.studio.controller.OutfitSuggestionController.suggestOutfit(java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException: Required request parameter 'occasion' for method parameter type String is not present
-2025-06-03T17:24:46.368+05:30  WARN 9060 --- [studio] [nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'occasion' for method parameter type String is not present]
-2025-06-03T17:24:46.369+05:30 DEBUG 9060 --- [studio] [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
-2025-06-03T17:24:54.365+05:30 DEBUG 9060 --- [studio] [ool housekeeper] com.zaxxer.hikari.pool.HikariPool        : StudioHikariPool - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
-2025-06-03T17:24:54.365+05:30 DEBUG 9060 --- [studio] [ool housekeeper] com.zaxxer.hikari.pool.HikariPool        : StudioHikariPool - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+C:\Users\DELL\Downloads\GitHub-Workspace-Kalyan\fashion-studio-ai\src\main\java\io\metaverse\fashion\studio\controller\OutfitSuggestionController.java:32:43
+java: cannot find symbol
+  symbol:   method callGetOutfitSuggestionByPrompt(java.lang.String)
+  location: variable outfitSuggestionService of type io.metaverse.fashion.studio.service.OutfitSuggestionService
