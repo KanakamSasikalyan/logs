@@ -1,24 +1,9 @@
-Failed to load resource: the server responded with a status of 404 (Not Found)Understand this error
-Login.jsx:28 
-            
-            
-           POST https://frontend-fashion-studio-ai-afesbjb9h8gbbmh0.centralus-01.azurewebsites.net/backend-fashion-studio-ai-f7e8a8cjepcfcge2.centralus-01.azurewebsites.net/api/users/login 405 (Not Allowed)
-onSubmit @ Login.jsx:28
-Me @ react-dom.production.min.js:54
-We @ react-dom.production.min.js:54
-(anonymous) @ react-dom.production.min.js:55
-Ar @ react-dom.production.min.js:105
-zr @ react-dom.production.min.js:106
-(anonymous) @ react-dom.production.min.js:117
-uu @ react-dom.production.min.js:273
-Te @ react-dom.production.min.js:52
-Vr @ react-dom.production.min.js:109
-Gt @ react-dom.production.min.js:74
-$t @ react-dom.production.min.js:73Understand this error
-Login.jsx:28 
-            
-POST https://frontend-fashion-studio-ai-afesbjb9h8gbbmh0.centralus-01.azurewebsites.net/backend-fashion-studio-ai-f7e8a8cjepcfcge2.centralus-01.azurewebsites.net/api/users/login 405 (Not Allowed)
+2025-06-03T15:46:24.631+05:30 DEBUG 11148 --- [studio] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/outfit/suggest?gender=female&season=summer&occasion=traditional", parameters={masked}
+2025-06-03T15:46:24.634+05:30 DEBUG 11148 --- [studio] [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to io.metaverse.fashion.studio.controller.OutfitSuggestionController#suggestOutfit(String, String, String)
+2025-06-03T15:46:24.636+05:30  INFO 11148 --- [studio] [nio-8080-exec-2] i.m.f.s.service.OutfitSuggestionService  : Executing enhanced Python script for occasion: traditional, gender: female, season: summer
+2025-06-03T15:46:25.014+05:30 DEBUG 11148 --- [studio] [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, application/json, application/*+json, application/yaml]
+2025-06-03T15:46:25.015+05:30 DEBUG 11148 --- [studio] [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Main suggestion: red sari<EOL><EOL>Alternative options:<EOL>- red sari<EOL>- red sari<EOL>"]
 
+this is backend log.
 
-my froneend : frontend-fashion-studio-ai-afesbjb9h8gbbmh0.centralus-01.azurewebsites.net
-my backend: backend-fashion-studio-ai-f7e8a8cjepcfcge2.centralus-01.azurewebsites.net
+but in frontend we are getting failed to get sugesstion
