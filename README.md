@@ -1,37 +1,7 @@
-Failed to compile.
-
-Module not found: Error: Can't resolve './About.css' in 'C:\Users\DELL\Downloads\GitHub-Workspace-Kalyan\react-frontend\src\components\Reviews'
-ERROR in ./src/components/Reviews/Reviews.jsx 7:0-21
-Module not found: Error: Can't resolve './About.css' in 'C:\Users\DELL\Downloads\GitHub-Workspace-Kalyan\react-frontend\src\components\Reviews'
-
-Failed to compile.
-
-Module not found: Error: Can't resolve './About.css' in 'C:\Users\DELL\Downloads\GitHub-Workspace-Kalyan\react-frontend\src\components\Reviews'
-ERROR in ./src/components/Reviews/Reviews.jsx 7:0-21
-Module not found: Error: Can't resolve './About.css' in 'C:\Users\DELL\Downloads\GitHub-Workspace-Kalyan\react-frontend\src\components\Reviews'
-
-Failed to compile.
-
-Module not found: Error: Can't resolve '../../About.css' in 'C:\Users\DELL\Downloads\GitHub-Workspace-Kalyan\react-frontend\src\components\Reviews'
-ERROR in ./src/components/Reviews/Reviews.jsx 7:0-25
-Module not found: Error: Can't resolve '../../About.css' in 'C:\Users\DELL\Downloads\GitHub-Workspace-Kalyan\react-frontend\src\components\Reviews'
-
-Failed to compile.
-
-Module not found: Error: Can't resolve '../../About.css' in 'C:\Users\DELL\Downloads\GitHub-Workspace-Kalyan\react-frontend\src\components\Reviews'
-ERROR in ./src/components/Reviews/Reviews.jsx 7:0-25
-Module not found: Error: Can't resolve '../../About.css' in 'C:\Users\DELL\Downloads\GitHub-Workspace-Kalyan\react-frontend\src\components\Reviews'
-
-Failed to compile.
-
-Module not found: Error: Can't resolve './About.css' in 'C:\Users\DELL\Downloads\GitHub-Workspace-Kalyan\react-frontend\src\components\Reviews'
-ERROR in ./src/components/Reviews/Reviews.jsx 7:0-21
-Module not found: Error: Can't resolve './About.css' in 'C:\Users\DELL\Downloads\GitHub-Workspace-Kalyan\react-frontend\src\components\Reviews'
-
-Failed to compile.
-
-Module not found: Error: Can't resolve './About.css' in 'C:\Users\DELL\Downloads\GitHub-Workspace-Kalyan\react-frontend\src\components\Reviews'
-ERROR in ./src/components/Reviews/Reviews.jsx 7:0-21
-Module not found: Error: Can't resolve './About.css' in 'C:\Users\DELL\Downloads\GitHub-Workspace-Kalyan\react-frontend\src\components\Reviews'
-
-webpack compiled with 1 error
+-- Sample Reviews
+INSERT INTO review (name, rating, comment, likes, created_at) VALUES
+('Alice', 5, 'Amazing platform! The virtual try-on feature is a game changer.', 3, CURRENT_TIMESTAMP),
+('Bob', 4, 'Great designs and easy to use. Would love more outfit suggestions.', 2, CURRENT_TIMESTAMP),
+('Priya', 5, 'Loved the personalized recommendations. Highly recommended!', 5, CURRENT_TIMESTAMP),
+('John', 3, 'Good experience overall, but the camera try-on could be faster.', 1, CURRENT_TIMESTAMP),
+('Sara', 4, 'The marketplace is very useful for comparing styles.', 0, CURRENT_TIMESTAMP);
