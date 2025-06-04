@@ -1,25 +1,644 @@
-https://frontend-fashion-studio-ai-afesbjb9h8gbbmh0.centralus-01.azurewebsites.net/
-
-
-Yes, there are alternatives to Stable Diffusion that can generate clothing designs using prompts with less computational resources. Here are a few options:
-
-*Alternatives*
-1. *CLIP-Guided Diffusion*: A text-to-image model that uses CLIP (Contrastive Language-Image Pre-training) to generate images based on text prompts. It's less computationally intensive than Stable Diffusion.
-2. *VQGAN*: A vector quantized GAN that can generate images based on text prompts. It's known for its efficiency and can run on lower-end hardware.
-3. *Pix2Pix*: A conditional GAN that can generate images based on text prompts or sketches. It's a more lightweight model compared to Stable Diffusion.
-
-*Clothing design-specific models*
-1. *OutfitVAE*: A VAE-based model that generates clothing designs based on text prompts.
-2. *Fashion-Gen*: A GAN-based model that generates clothing designs based on text prompts.
-
-*Considerations*
-1. *Image quality*: Alternative models might not produce images with the same level of quality as Stable Diffusion.
-2. *Prompt understanding*: Alternative models might not understand prompts as well as Stable Diffusion.
-3. *Customization*: Alternative models might require more fine-tuning or customization to fit your specific use case.
-
-*Resources*
-1. *Hugging Face Models*: Explore the Hugging Face model hub for pre-trained models that can generate clothing designs.
-2. *GitHub repositories*: Search for open-source implementations of clothing design generation models.
-3. *Research papers*: Read research papers on clothing design generation to stay up-to-date with the latest developments.
-
-By exploring these alternatives, you might find a model that suits your resource constraints and generates high-quality clothing designs based on prompts.
+Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+2CamVirtualTryOn.jsx:27 Opening Web Socket...
+:8080/ws/info?t=1749062418109:1 
+            
+            
+           Failed to load resource: the server responded with a status of 403 ()Understand this error
+CamVirtualTryOn.jsx:27 Connection closed to http://localhost:8080/ws
+CamVirtualTryOn.jsx:68 WebSocket closed: CloseEvent
+CamVirtualTryOn.jsx:27 STOMP: scheduling reconnection in 5000ms
+:8080/ws/info?t=1749062418108:1 
+            
+            
+           Failed to load resource: the server responded with a status of 403 ()Understand this error
+CamVirtualTryOn.jsx:27 Connection closed to http://localhost:8080/ws
+CamVirtualTryOn.jsx:68 WebSocket closed: CloseEvent
+CamVirtualTryOn.jsx:27 STOMP: scheduling reconnection in 5000ms
+2CamVirtualTryOn.jsx:27 Opening Web Socket...
+CamVirtualTryOn.jsx:22 
+            
+            
+           GET http://localhost:8080/ws/info?t=1749062423164 403 (Forbidden)
+(anonymous) @ abstract-xhr.js:132
+(anonymous) @ abstract-xhr.js:21
+setTimeout
+AbstractXHRObject @ abstract-xhr.js:20
+XHRCorsObject @ xhr-cors.js:8
+InfoAjax @ info-ajax.js:18
+(anonymous) @ info-receiver.js:39
+(anonymous) @ info-receiver.js:56
+(anonymous) @ info-receiver.js:25
+setTimeout
+InfoReceiver @ info-receiver.js:24
+SockJS @ main.js:124
+webSocketFactory @ CamVirtualTryOn.jsx:22
+_createWebSocket @ client.ts:584
+_connect @ client.ts:508
+await in _connect
+(anonymous) @ client.ts:616Understand this error
+CamVirtualTryOn.jsx:27 Connection closed to http://localhost:8080/ws
+CamVirtualTryOn.jsx:68 WebSocket closed: CloseEvent {type: 'close', bubbles: false, cancelable: false, timeStamp: 1749062423201, wasClean: false, …}
+CamVirtualTryOn.jsx:27 STOMP: scheduling reconnection in 5000ms
+CamVirtualTryOn.jsx:22 
+            
+            
+           GET http://localhost:8080/ws/info?t=1749062423183 403 (Forbidden)
+(anonymous) @ abstract-xhr.js:132
+(anonymous) @ abstract-xhr.js:21
+setTimeout
+AbstractXHRObject @ abstract-xhr.js:20
+XHRCorsObject @ xhr-cors.js:8
+InfoAjax @ info-ajax.js:18
+(anonymous) @ info-receiver.js:39
+(anonymous) @ info-receiver.js:56
+(anonymous) @ info-receiver.js:25
+setTimeout
+InfoReceiver @ info-receiver.js:24
+SockJS @ main.js:124
+webSocketFactory @ CamVirtualTryOn.jsx:22
+_createWebSocket @ client.ts:584
+_connect @ client.ts:508
+await in _connect
+(anonymous) @ client.ts:616Understand this error
+CamVirtualTryOn.jsx:27 Connection closed to http://localhost:8080/ws
+CamVirtualTryOn.jsx:68 WebSocket closed: CloseEvent {type: 'close', bubbles: false, cancelable: false, timeStamp: 1749062423223, wasClean: false, …}
+CamVirtualTryOn.jsx:27 STOMP: scheduling reconnection in 5000ms
+2CamVirtualTryOn.jsx:27 Opening Web Socket...
+CamVirtualTryOn.jsx:22 
+            
+            
+           GET http://localhost:8080/ws/info?t=1749062428217 403 (Forbidden)
+(anonymous) @ abstract-xhr.js:132
+(anonymous) @ abstract-xhr.js:21
+setTimeout
+AbstractXHRObject @ abstract-xhr.js:20
+XHRCorsObject @ xhr-cors.js:8
+InfoAjax @ info-ajax.js:18
+(anonymous) @ info-receiver.js:39
+(anonymous) @ info-receiver.js:56
+(anonymous) @ info-receiver.js:25
+setTimeout
+InfoReceiver @ info-receiver.js:24
+SockJS @ main.js:124
+webSocketFactory @ CamVirtualTryOn.jsx:22
+_createWebSocket @ client.ts:584
+_connect @ client.ts:508
+await in _connect
+(anonymous) @ client.ts:616
+setTimeout
+_schedule_reconnect @ client.ts:603
+onWebSocketClose @ client.ts:560
+(anonymous) @ stomp-handler.ts:180
+(anonymous) @ eventtarget.js:51
+(anonymous) @ main.js:363
+setTimeout
+(anonymous) @ main.js:351
+(anonymous) @ main.js:180
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ info-receiver.js:67
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ info-ajax.js:36
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ abstract-xhr.js:124
+XMLHttpRequest.send
+(anonymous) @ abstract-xhr.js:132
+(anonymous) @ abstract-xhr.js:21
+setTimeout
+AbstractXHRObject @ abstract-xhr.js:20
+XHRCorsObject @ xhr-cors.js:8
+InfoAjax @ info-ajax.js:18
+(anonymous) @ info-receiver.js:39
+(anonymous) @ info-receiver.js:56
+(anonymous) @ info-receiver.js:25
+setTimeout
+InfoReceiver @ info-receiver.js:24
+SockJS @ main.js:124
+webSocketFactory @ CamVirtualTryOn.jsx:22
+_createWebSocket @ client.ts:584
+_connect @ client.ts:508
+await in _connect
+(anonymous) @ client.ts:616Understand this error
+CamVirtualTryOn.jsx:27 Connection closed to http://localhost:8080/ws
+CamVirtualTryOn.jsx:68 WebSocket closed: CloseEvent {type: 'close', bubbles: false, cancelable: false, timeStamp: 1749062428271, wasClean: false, …}
+CamVirtualTryOn.jsx:27 STOMP: scheduling reconnection in 5000ms
+CamVirtualTryOn.jsx:22 
+            
+            
+           GET http://localhost:8080/ws/info?t=1749062428235 403 (Forbidden)
+(anonymous) @ abstract-xhr.js:132
+(anonymous) @ abstract-xhr.js:21
+setTimeout
+AbstractXHRObject @ abstract-xhr.js:20
+XHRCorsObject @ xhr-cors.js:8
+InfoAjax @ info-ajax.js:18
+(anonymous) @ info-receiver.js:39
+(anonymous) @ info-receiver.js:56
+(anonymous) @ info-receiver.js:25
+setTimeout
+InfoReceiver @ info-receiver.js:24
+SockJS @ main.js:124
+webSocketFactory @ CamVirtualTryOn.jsx:22
+_createWebSocket @ client.ts:584
+_connect @ client.ts:508
+await in _connect
+(anonymous) @ client.ts:616
+setTimeout
+_schedule_reconnect @ client.ts:603
+onWebSocketClose @ client.ts:560
+(anonymous) @ stomp-handler.ts:180
+(anonymous) @ eventtarget.js:51
+(anonymous) @ main.js:363
+setTimeout
+(anonymous) @ main.js:351
+(anonymous) @ main.js:180
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ info-receiver.js:67
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ info-ajax.js:36
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ abstract-xhr.js:124
+XMLHttpRequest.send
+(anonymous) @ abstract-xhr.js:132
+(anonymous) @ abstract-xhr.js:21
+setTimeout
+AbstractXHRObject @ abstract-xhr.js:20
+XHRCorsObject @ xhr-cors.js:8
+InfoAjax @ info-ajax.js:18
+(anonymous) @ info-receiver.js:39
+(anonymous) @ info-receiver.js:56
+(anonymous) @ info-receiver.js:25
+setTimeout
+InfoReceiver @ info-receiver.js:24
+SockJS @ main.js:124
+webSocketFactory @ CamVirtualTryOn.jsx:22
+_createWebSocket @ client.ts:584
+_connect @ client.ts:508
+await in _connect
+(anonymous) @ client.ts:616Understand this error
+CamVirtualTryOn.jsx:27 Connection closed to http://localhost:8080/ws
+CamVirtualTryOn.jsx:68 WebSocket closed: CloseEvent {type: 'close', bubbles: false, cancelable: false, timeStamp: 1749062428296, wasClean: false, …}
+CamVirtualTryOn.jsx:27 STOMP: scheduling reconnection in 5000ms
+2CamVirtualTryOn.jsx:27 Opening Web Socket...
+CamVirtualTryOn.jsx:22 
+            
+            
+           GET http://localhost:8080/ws/info?t=1749062433286 403 (Forbidden)
+(anonymous) @ abstract-xhr.js:132
+(anonymous) @ abstract-xhr.js:21
+setTimeout
+AbstractXHRObject @ abstract-xhr.js:20
+XHRCorsObject @ xhr-cors.js:8
+InfoAjax @ info-ajax.js:18
+(anonymous) @ info-receiver.js:39
+(anonymous) @ info-receiver.js:56
+(anonymous) @ info-receiver.js:25
+setTimeout
+InfoReceiver @ info-receiver.js:24
+SockJS @ main.js:124
+webSocketFactory @ CamVirtualTryOn.jsx:22
+_createWebSocket @ client.ts:584
+_connect @ client.ts:508
+await in _connect
+(anonymous) @ client.ts:616
+setTimeout
+_schedule_reconnect @ client.ts:603
+onWebSocketClose @ client.ts:560
+(anonymous) @ stomp-handler.ts:180
+(anonymous) @ eventtarget.js:51
+(anonymous) @ main.js:363
+setTimeout
+(anonymous) @ main.js:351
+(anonymous) @ main.js:180
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ info-receiver.js:67
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ info-ajax.js:36
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ abstract-xhr.js:124
+XMLHttpRequest.send
+(anonymous) @ abstract-xhr.js:132
+(anonymous) @ abstract-xhr.js:21
+setTimeout
+AbstractXHRObject @ abstract-xhr.js:20
+XHRCorsObject @ xhr-cors.js:8
+InfoAjax @ info-ajax.js:18
+(anonymous) @ info-receiver.js:39
+(anonymous) @ info-receiver.js:56
+(anonymous) @ info-receiver.js:25
+setTimeout
+InfoReceiver @ info-receiver.js:24
+SockJS @ main.js:124
+webSocketFactory @ CamVirtualTryOn.jsx:22
+_createWebSocket @ client.ts:584
+_connect @ client.ts:508
+await in _connect
+(anonymous) @ client.ts:616
+setTimeout
+_schedule_reconnect @ client.ts:603
+onWebSocketClose @ client.ts:560
+(anonymous) @ stomp-handler.ts:180
+(anonymous) @ eventtarget.js:51
+(anonymous) @ main.js:363
+setTimeout
+(anonymous) @ main.js:351
+(anonymous) @ main.js:180
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ info-receiver.js:67
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ info-ajax.js:36
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ abstract-xhr.js:124
+XMLHttpRequest.send
+(anonymous) @ abstract-xhr.js:132
+(anonymous) @ abstract-xhr.js:21
+setTimeout
+AbstractXHRObject @ abstract-xhr.js:20
+XHRCorsObject @ xhr-cors.js:8
+InfoAjax @ info-ajax.js:18
+(anonymous) @ info-receiver.js:39
+(anonymous) @ info-receiver.js:56
+(anonymous) @ info-receiver.js:25
+setTimeout
+InfoReceiver @ info-receiver.js:24
+SockJS @ main.js:124
+webSocketFactory @ CamVirtualTryOn.jsx:22
+_createWebSocket @ client.ts:584
+_connect @ client.ts:508
+await in _connect
+(anonymous) @ client.ts:616Understand this error
+CamVirtualTryOn.jsx:27 Connection closed to http://localhost:8080/ws
+CamVirtualTryOn.jsx:68 WebSocket closed: CloseEvent {type: 'close', bubbles: false, cancelable: false, timeStamp: 1749062433323, wasClean: false, …}
+CamVirtualTryOn.jsx:27 STOMP: scheduling reconnection in 5000ms
+CamVirtualTryOn.jsx:22 
+            
+            
+           GET http://localhost:8080/ws/info?t=1749062433303 403 (Forbidden)
+(anonymous) @ abstract-xhr.js:132
+(anonymous) @ abstract-xhr.js:21
+setTimeout
+AbstractXHRObject @ abstract-xhr.js:20
+XHRCorsObject @ xhr-cors.js:8
+InfoAjax @ info-ajax.js:18
+(anonymous) @ info-receiver.js:39
+(anonymous) @ info-receiver.js:56
+(anonymous) @ info-receiver.js:25
+setTimeout
+InfoReceiver @ info-receiver.js:24
+SockJS @ main.js:124
+webSocketFactory @ CamVirtualTryOn.jsx:22
+_createWebSocket @ client.ts:584
+_connect @ client.ts:508
+await in _connect
+(anonymous) @ client.ts:616
+setTimeout
+_schedule_reconnect @ client.ts:603
+onWebSocketClose @ client.ts:560
+(anonymous) @ stomp-handler.ts:180
+(anonymous) @ eventtarget.js:51
+(anonymous) @ main.js:363
+setTimeout
+(anonymous) @ main.js:351
+(anonymous) @ main.js:180
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ info-receiver.js:67
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ info-ajax.js:36
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ abstract-xhr.js:124
+XMLHttpRequest.send
+(anonymous) @ abstract-xhr.js:132
+(anonymous) @ abstract-xhr.js:21
+setTimeout
+AbstractXHRObject @ abstract-xhr.js:20
+XHRCorsObject @ xhr-cors.js:8
+InfoAjax @ info-ajax.js:18
+(anonymous) @ info-receiver.js:39
+(anonymous) @ info-receiver.js:56
+(anonymous) @ info-receiver.js:25
+setTimeout
+InfoReceiver @ info-receiver.js:24
+SockJS @ main.js:124
+webSocketFactory @ CamVirtualTryOn.jsx:22
+_createWebSocket @ client.ts:584
+_connect @ client.ts:508
+await in _connect
+(anonymous) @ client.ts:616
+setTimeout
+_schedule_reconnect @ client.ts:603
+onWebSocketClose @ client.ts:560
+(anonymous) @ stomp-handler.ts:180
+(anonymous) @ eventtarget.js:51
+(anonymous) @ main.js:363
+setTimeout
+(anonymous) @ main.js:351
+(anonymous) @ main.js:180
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ info-receiver.js:67
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ info-ajax.js:36
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ abstract-xhr.js:124
+XMLHttpRequest.send
+(anonymous) @ abstract-xhr.js:132
+(anonymous) @ abstract-xhr.js:21
+setTimeout
+AbstractXHRObject @ abstract-xhr.js:20
+XHRCorsObject @ xhr-cors.js:8
+InfoAjax @ info-ajax.js:18
+(anonymous) @ info-receiver.js:39
+(anonymous) @ info-receiver.js:56
+(anonymous) @ info-receiver.js:25
+setTimeout
+InfoReceiver @ info-receiver.js:24
+SockJS @ main.js:124
+webSocketFactory @ CamVirtualTryOn.jsx:22
+_createWebSocket @ client.ts:584
+_connect @ client.ts:508
+await in _connect
+(anonymous) @ client.ts:616Understand this error
+CamVirtualTryOn.jsx:27 Connection closed to http://localhost:8080/ws
+CamVirtualTryOn.jsx:68 WebSocket closed: CloseEvent {type: 'close', bubbles: false, cancelable: false, timeStamp: 1749062433346, wasClean: false, …}
+CamVirtualTryOn.jsx:27 STOMP: scheduling reconnection in 5000ms
+2CamVirtualTryOn.jsx:27 Opening Web Socket...
+CamVirtualTryOn.jsx:22 
+            
+            
+           GET http://localhost:8080/ws/info?t=1749062438335 403 (Forbidden)
+(anonymous) @ abstract-xhr.js:132
+(anonymous) @ abstract-xhr.js:21
+setTimeout
+AbstractXHRObject @ abstract-xhr.js:20
+XHRCorsObject @ xhr-cors.js:8
+InfoAjax @ info-ajax.js:18
+(anonymous) @ info-receiver.js:39
+(anonymous) @ info-receiver.js:56
+(anonymous) @ info-receiver.js:25
+setTimeout
+InfoReceiver @ info-receiver.js:24
+SockJS @ main.js:124
+webSocketFactory @ CamVirtualTryOn.jsx:22
+_createWebSocket @ client.ts:584
+_connect @ client.ts:508
+await in _connect
+(anonymous) @ client.ts:616
+setTimeout
+_schedule_reconnect @ client.ts:603
+onWebSocketClose @ client.ts:560
+(anonymous) @ stomp-handler.ts:180
+(anonymous) @ eventtarget.js:51
+(anonymous) @ main.js:363
+setTimeout
+(anonymous) @ main.js:351
+(anonymous) @ main.js:180
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ info-receiver.js:67
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ info-ajax.js:36
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ abstract-xhr.js:124
+XMLHttpRequest.send
+(anonymous) @ abstract-xhr.js:132
+(anonymous) @ abstract-xhr.js:21
+setTimeout
+AbstractXHRObject @ abstract-xhr.js:20
+XHRCorsObject @ xhr-cors.js:8
+InfoAjax @ info-ajax.js:18
+(anonymous) @ info-receiver.js:39
+(anonymous) @ info-receiver.js:56
+(anonymous) @ info-receiver.js:25
+setTimeout
+InfoReceiver @ info-receiver.js:24
+SockJS @ main.js:124
+webSocketFactory @ CamVirtualTryOn.jsx:22
+_createWebSocket @ client.ts:584
+_connect @ client.ts:508
+await in _connect
+(anonymous) @ client.ts:616
+setTimeout
+_schedule_reconnect @ client.ts:603
+onWebSocketClose @ client.ts:560
+(anonymous) @ stomp-handler.ts:180
+(anonymous) @ eventtarget.js:51
+(anonymous) @ main.js:363
+setTimeout
+(anonymous) @ main.js:351
+(anonymous) @ main.js:180
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ info-receiver.js:67
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ info-ajax.js:36
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ abstract-xhr.js:124
+XMLHttpRequest.send
+(anonymous) @ abstract-xhr.js:132
+(anonymous) @ abstract-xhr.js:21
+setTimeout
+AbstractXHRObject @ abstract-xhr.js:20
+XHRCorsObject @ xhr-cors.js:8
+InfoAjax @ info-ajax.js:18
+(anonymous) @ info-receiver.js:39
+(anonymous) @ info-receiver.js:56
+(anonymous) @ info-receiver.js:25
+setTimeout
+InfoReceiver @ info-receiver.js:24
+SockJS @ main.js:124
+webSocketFactory @ CamVirtualTryOn.jsx:22
+_createWebSocket @ client.ts:584
+_connect @ client.ts:508
+await in _connect
+(anonymous) @ client.ts:616
+setTimeout
+_schedule_reconnect @ client.ts:603
+onWebSocketClose @ client.ts:560
+(anonymous) @ stomp-handler.ts:180
+(anonymous) @ eventtarget.js:51
+(anonymous) @ main.js:363
+setTimeout
+(anonymous) @ main.js:351
+(anonymous) @ main.js:180
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ info-receiver.js:67
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ info-ajax.js:36
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ abstract-xhr.js:124
+XMLHttpRequest.send
+(anonymous) @ abstract-xhr.js:132
+(anonymous) @ abstract-xhr.js:21
+setTimeout
+AbstractXHRObject @ abstract-xhr.js:20
+XHRCorsObject @ xhr-cors.js:8
+InfoAjax @ info-ajax.js:18
+(anonymous) @ info-receiver.js:39
+(anonymous) @ info-receiver.js:56
+(anonymous) @ info-receiver.js:25
+setTimeout
+InfoReceiver @ info-receiver.js:24
+SockJS @ main.js:124
+webSocketFactory @ CamVirtualTryOn.jsx:22
+_createWebSocket @ client.ts:584
+_connect @ client.ts:508
+await in _connect
+(anonymous) @ client.ts:616Understand this error
+CamVirtualTryOn.jsx:27 Connection closed to http://localhost:8080/ws
+CamVirtualTryOn.jsx:68 WebSocket closed: CloseEvent {type: 'close', bubbles: false, cancelable: false, timeStamp: 1749062438389, wasClean: false, …}
+CamVirtualTryOn.jsx:27 STOMP: scheduling reconnection in 5000ms
+CamVirtualTryOn.jsx:22 
+            
+            
+           GET http://localhost:8080/ws/info?t=1749062438352 403 (Forbidden)
+(anonymous) @ abstract-xhr.js:132
+(anonymous) @ abstract-xhr.js:21
+setTimeout
+AbstractXHRObject @ abstract-xhr.js:20
+XHRCorsObject @ xhr-cors.js:8
+InfoAjax @ info-ajax.js:18
+(anonymous) @ info-receiver.js:39
+(anonymous) @ info-receiver.js:56
+(anonymous) @ info-receiver.js:25
+setTimeout
+InfoReceiver @ info-receiver.js:24
+SockJS @ main.js:124
+webSocketFactory @ CamVirtualTryOn.jsx:22
+_createWebSocket @ client.ts:584
+_connect @ client.ts:508
+await in _connect
+(anonymous) @ client.ts:616
+setTimeout
+_schedule_reconnect @ client.ts:603
+onWebSocketClose @ client.ts:560
+(anonymous) @ stomp-handler.ts:180
+(anonymous) @ eventtarget.js:51
+(anonymous) @ main.js:363
+setTimeout
+(anonymous) @ main.js:351
+(anonymous) @ main.js:180
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ info-receiver.js:67
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ info-ajax.js:36
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ abstract-xhr.js:124
+XMLHttpRequest.send
+(anonymous) @ abstract-xhr.js:132
+(anonymous) @ abstract-xhr.js:21
+setTimeout
+AbstractXHRObject @ abstract-xhr.js:20
+XHRCorsObject @ xhr-cors.js:8
+InfoAjax @ info-ajax.js:18
+(anonymous) @ info-receiver.js:39
+(anonymous) @ info-receiver.js:56
+(anonymous) @ info-receiver.js:25
+setTimeout
+InfoReceiver @ info-receiver.js:24
+SockJS @ main.js:124
+webSocketFactory @ CamVirtualTryOn.jsx:22
+_createWebSocket @ client.ts:584
+_connect @ client.ts:508
+await in _connect
+(anonymous) @ client.ts:616
+setTimeout
+_schedule_reconnect @ client.ts:603
+onWebSocketClose @ client.ts:560
+(anonymous) @ stomp-handler.ts:180
+(anonymous) @ eventtarget.js:51
+(anonymous) @ main.js:363
+setTimeout
+(anonymous) @ main.js:351
+(anonymous) @ main.js:180
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ info-receiver.js:67
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ info-ajax.js:36
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ abstract-xhr.js:124
+XMLHttpRequest.send
+(anonymous) @ abstract-xhr.js:132
+(anonymous) @ abstract-xhr.js:21
+setTimeout
+AbstractXHRObject @ abstract-xhr.js:20
+XHRCorsObject @ xhr-cors.js:8
+InfoAjax @ info-ajax.js:18
+(anonymous) @ info-receiver.js:39
+(anonymous) @ info-receiver.js:56
+(anonymous) @ info-receiver.js:25
+setTimeout
+InfoReceiver @ info-receiver.js:24
+SockJS @ main.js:124
+webSocketFactory @ CamVirtualTryOn.jsx:22
+_createWebSocket @ client.ts:584
+_connect @ client.ts:508
+await in _connect
+(anonymous) @ client.ts:616
+setTimeout
+_schedule_reconnect @ client.ts:603
+onWebSocketClose @ client.ts:560
+(anonymous) @ stomp-handler.ts:180
+(anonymous) @ eventtarget.js:51
+(anonymous) @ main.js:363
+setTimeout
+(anonymous) @ main.js:351
+(anonymous) @ main.js:180
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ info-receiver.js:67
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ info-ajax.js:36
+g @ emitter.js:30
+(anonymous) @ emitter.js:50
+(anonymous) @ abstract-xhr.js:124
+XMLHttpRequest.send
+(anonymous) @ abstract-xhr.js:132
+(anonymous) @ abstract-xhr.js:21
+setTimeout
+AbstractXHRObject @ abstract-xhr.js:20
+XHRCorsObject @ xhr-cors.js:8
+InfoAjax @ info-ajax.js:18
+(anonymous) @ info-receiver.js:39
+(anonymous) @ info-receiver.js:56
+(anonymous) @ info-receiver.js:25
+setTimeout
+InfoReceiver @ info-receiver.js:24
+SockJS @ main.js:124
+webSocketFactory @ CamVirtualTryOn.jsx:22
+_createWebSocket @ client.ts:584
+_connect @ client.ts:508
+await in _connect
+(anonymous) @ client.ts:616Understand this error
+CamVirtualTryOn.jsx:27 Connection closed to http://localhost:8080/ws
+CamVirtualTryOn.jsx:68 WebSocket closed: CloseEvent {type: 'close', bubbles: false, cancelable: false, timeStamp: 1749062438393, wasClean: false, …}
+CamVirtualTryOn.jsx:27 STOMP: scheduling reconnection in 5000ms
